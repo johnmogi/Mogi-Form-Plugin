@@ -1,0 +1,46 @@
+.mogi-form-admin .nav-tab-wrapper {
+    margin-bottom: 1em;
+}
+
+.mogi-form-admin .forms-list {
+    margin-top: 1em;
+}
+
+.mogi-form-admin .copy-shortcode {
+    margin-left: 0.5em;
+}
+
+.mogi-form-admin .button-small {
+    margin-right: 0.5em;
+}
+
+.mogi-form-admin .form-table th {
+    width: 200px;
+}
+
+.mogi-form-admin .form-table td {
+    padding: 15px 10px;
+}
+
+.mogi-form-admin .form-table input[type="text"],
+.mogi-form-admin .form-table input[type="email"] {
+    width: 300px;
+}
+
+.mogi-form-admin .tablenav {
+    margin: 1em 0;
+}
+
+.mogi-form-admin .wp-list-table th {
+    font-weight: 600;
+}
+
+.mogi-form-admin .wp-list-table td {
+    vertical-align: middle;
+}
+
+.mogi-form-admin .wp-list-table code {
+    background: #f0f0f1;
+    padding: 3px 5px;
+    border-radius: 3px;
+}

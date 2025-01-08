@@ -1,0 +1,68 @@
+.mogi-form {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mogi-form .form-group {
+    margin-bottom: 1.5em;
+}
+
+.mogi-form label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    color: #333;
+}
+
+.mogi-form input[type="text"],
+.mogi-form input[type="email"],
+.mogi-form textarea {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.mogi-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.mogi-form .submit-button {
+    background: #0073aa;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.mogi-form .submit-button:hover {
+    background: #005177;
+}
+
+.mogi-form .message {
+    padding: 10px;
+    margin-bottom: 1em;
+    border-radius: 4px;
+}
+
+.mogi-form .message.success {
+    background: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+}
+
+.mogi-form .message.error {
+    background: #f2dede;
+    color: #a94442;
+    border: 1px solid #ebccd1;
+}
